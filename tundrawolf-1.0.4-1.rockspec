@@ -1,16 +1,16 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "tundrawolf"
-version = "1.0.1-1"
+version = "1.0.4-1"
 -- LuaDist source
 source = {
-  tag = "1.0.1-1",
+  tag = "1.0.4-1",
   url = "git://github.com/LuaDist-testing/tundrawolf.git"
 }
 -- Original source
 -- source = {
---   url = "https://github.com/aimingoo/tundrawolf/archive/v1.0.1.tar.gz",
---   dir = "tundrawolf-1.0.1"
+--   url = "https://github.com/aimingoo/tundrawolf/archive/v1.0.4.tar.gz",
+--   dir = "tundrawolf-1.0.4"
 -- }
 description = {
   summary = "tundrawolf - distribution task for nginx_lua",
