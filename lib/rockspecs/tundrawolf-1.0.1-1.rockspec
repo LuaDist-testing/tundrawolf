@@ -1,17 +1,9 @@
--- This file was automatically generated for the LuaDist project.
-
 package = "tundrawolf"
-version = "1.0.0-0"
--- LuaDist source
+version = "1.0.1-1"
 source = {
-  tag = "1.0.0-0",
-  url = "git://github.com/LuaDist-testing/tundrawolf.git"
+  url = "https://github.com/aimingoo/tundrawolf/archive/v1.0.1.tar.gz",
+  dir = "tundrawolf-1.0.1"
 }
--- Original source
--- source = {
---   url = "https://github.com/aimingoo/tundrawolf/archive/v1.0.0.tar.gz",
---   dir = "tundrawolf-1.0.0"
--- }
 description = {
   summary = "tundrawolf - distribution task for nginx_lua",
   detailed = [[
@@ -29,6 +21,7 @@ build = {
     ["tundrawolf"]  = "lib/Distributed.lua",
     ["tundrawolf.infra.taskhelper"]  = "infra/taskhelper.lua",
     ["tundrawolf.infra.httphelper"]  = "infra/httphelper.lua",
+    ["tundrawolf.infra.requestdata"]  = "infra/requestdata.lua",
     ["tundrawolf.dbg.register_center"]  = "infra/dbg_register_center.lua",
     ["tundrawolf.dbg.resource_center"]  = "infra/dbg_resource_center.lua",
     ["lib.Promise"]  = "lib/Promise.lua",
